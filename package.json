@@ -2,10 +2,10 @@
   "name": "mysql-test-connection",
   "version": "1.0.0",
   "description": "Conexion de prueba nodejs - mysql",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "author": "cafe",
   "license": "ISC",
