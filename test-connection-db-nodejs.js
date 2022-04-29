@@ -1,0 +1,18 @@
+var mysql      = require('mysql');
+var connection = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'db_manager',
+  password : 'lRT0dhJS7hDUOVty',
+  database : 'profuturo_salon_del_cliente'
+});
+
+connection.connect(function(err) {
+    if (err) {
+      console.error('error connecting: ' + err.stack);
+      return;
+    }
+   
+    console.log('connected as id ' + connection.threadId);
+  });
+ 
+connection.end();

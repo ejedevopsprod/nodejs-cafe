@@ -1,0 +1,11 @@
+{
+  "name": "mysql-test-connection",
+  "version": "1.0.0",
+  "description": "Conexion de prueba nodejs - mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cafe",
+  "license": "ISC"
+}
