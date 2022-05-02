@@ -5,7 +5,7 @@ app = express();
 app.get('/', function (req, res) {
   res.send('Hello World!');
   res.send('-----------------');
-  res.send(('HOST=${process.env.HOST}');
+  res.send('HOST=${process.env.HOST}');
   res.send('DATABASE=${process.env.DATABASE}');
   res.send('USER=${process.env.USER}');
   res.send('PASSWORD=${process.env.PASSWORD}');
