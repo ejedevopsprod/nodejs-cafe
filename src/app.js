@@ -10,11 +10,11 @@ console.log('PASSWORD::::::', process.env.PASSWORD);
 console.log("----------- DATOS DE LAS VARIABLES --------------");
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
-  res.send(process.env.HOST);
-  res.send(process.env.DATABASE);
-  res.send(process.env.USER);
-  res.send(process.env.PASSWORD); 
+  res.send('Hello World!' + process.env.HOST);
+  //res.send(process.env.HOST);
+  //res.send(process.env.DATABASE);
+  //res.send(process.env.USER);
+  //res.send(process.env.PASSWORD); 
 });
 
 app.listen(8080, function () {
